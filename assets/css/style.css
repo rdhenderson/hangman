@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	color: #777777;
+	/*background-image:url("../images/background.png");*/
+}
+
+
+h1, h2 {
+	font-family: courier, sans-serif;	
+	color:green;
+	
+}
+
+.computer {
+	font-family: courier, sans-serif;	
+	color:green;
+}
+
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+.navbar-brand {
+	background:black;
+	color: green;
+}
+
+
+
+
+.bg-black {
+	background-color:black;
+	font-family: courier, sans-serif;	
+	color:green;
+	z-index:3000;
+}
+
